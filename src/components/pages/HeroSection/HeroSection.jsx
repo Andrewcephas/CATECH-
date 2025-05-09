@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import "./HeroSection.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Button, Carousel } from "react-bootstrap";
+import { Container,  Carousel } from "react-bootstrap";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 // Images
 import coverPremier from "../../image/chickw.webp";

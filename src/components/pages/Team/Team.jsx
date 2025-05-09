@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import one from "../../image/ngumbau.webp";  // Going up two levels to access the image
 import two from "../../image/pendo.webp";  // Going up two levels to access the image
 import three from "../../image/kimutai.webp";  // Going up two levels to access the image
