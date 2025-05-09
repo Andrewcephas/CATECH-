@@ -1,0 +1,36 @@
+/* OurPartners.css */
+.partners-container {
+    background-color: #f5fff7;
+    padding: 40px 20px;
+    height: 500px; /* Fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .partners-heading {
+    color: #017020;
+    text-align: center;
+    margin-top: 40px; /* Space from top */
+    margin-bottom: 1.5rem;
+  }
+  
+  .partner-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    justify-content: center; /* Center vertically to remove space */
+  }
+  
+  .partner-img {
+    width: auto;
+    height: 300px; /* Make image tall to fit height */
+    max-height: 350px;
+    object-fit: contain;
+    display: block;
+    margin: 0; /* Remove extra margin */
+    padding: 0; /* Remove padding */
+  }
+  
