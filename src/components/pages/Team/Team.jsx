@@ -108,3 +108,10 @@ const Team = () => {
 };
 
 export default Team;
+
+// git init
+// git add .
+// git commit -m "Push version 2 - React upgrade"
+// git push -u origin main --force
+
+
