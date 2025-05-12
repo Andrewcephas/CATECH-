@@ -20,6 +20,7 @@ const CustomNavbar = () => {
   const [currentMessageIndex, setCurrentMessageIndex] = useState(0);
   const [scrolled, setScrolled] = useState(false);
   const [showAnnouncement, setShowAnnouncement] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false); // New state for hamburger
 
   // Rotate messages
   useEffect(() => {
@@ -42,7 +43,7 @@ const CustomNavbar = () => {
 
   return (
     <>
-      {/* Announcement Bar (fixed at top) */}
+      {/* Announcement Bar */}
       <div
         style={{
           backgroundColor: "#017020",
@@ -54,7 +55,7 @@ const CustomNavbar = () => {
           transition: "all 0.3s ease",
           position: "fixed",
           width: "100%",
-          top: showAnnouncement ? "0" : "-60px", // slide up when scrolling
+          top: showAnnouncement ? "0" : "-60px",
           zIndex: 1040,
         }}
       >
@@ -109,7 +110,8 @@ const CustomNavbar = () => {
           {messages[currentMessageIndex]}
         </div>
 
-        <div
+        <a
+          href="/shop"
           className="book-now-button"
           style={{
             position: "absolute",
@@ -122,13 +124,14 @@ const CustomNavbar = () => {
             fontSize: "23px",
             top: "50%",
             transform: "translateY(-50%)",
+            textDecoration: "none",
           }}
         >
           BOOK NOW
-        </div>
+        </a>
       </div>
 
-      {/* Navbar (sticky under announcement bar) */}
+      {/* Navbar */}
       <Navbar
         expand="lg"
         style={{
@@ -137,7 +140,7 @@ const CustomNavbar = () => {
           transition: "height 0.3s ease",
           position: "fixed",
           width: "100%",
-          top: showAnnouncement ? "60px" : "0", // navbar shifts up when announcement hides
+          top: showAnnouncement ? "60px" : "0",
           zIndex: 1030,
         }}
         variant="dark"
@@ -157,11 +160,15 @@ const CustomNavbar = () => {
             />
           </Navbar.Brand>
 
+          {/* Hamburger */}
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
             style={{ border: "none" }}
-            className="custom-toggler"
-          />
+            className={`custom-toggler ${menuOpen ? "open" : ""}`}
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            <span className="navbar-toggler-icon"></span>
+          </Navbar.Toggle>
 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
@@ -193,9 +200,10 @@ const CustomNavbar = () => {
         </Container>
       </Navbar>
 
-      {/* Push page content down */}
+      {/* Push page content */}
       <div style={{ height: "150px" }}></div>
 
+      {/* Inline mobile responsive tweaks */}
       <style>
         {`
           @media (max-width: 767px) {
