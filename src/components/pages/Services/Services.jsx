@@ -4,9 +4,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Container, Button, Row, Col, Card } from "react-bootstrap";
 import "./Services.css";
-import broiler from "../../image/broilers1.webp";  // Retaining the image
-import layer from "../../image/layers1.webp";  // Retaining the image
-import improved from "../../image/improved.webp";  // Retaining the image
+import broiler from "../../image/bannerWithPhone7.webp";  // Retaining the image
+import layer from "../../image/bannerWithPhone.webp";  // Retaining the image
+import improved from "../../image/UI-UX.webp";  // Retaining the image
 
 const Services = () => {
   useEffect(() => {

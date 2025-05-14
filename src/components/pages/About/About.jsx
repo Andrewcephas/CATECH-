@@ -5,9 +5,9 @@ import CountUp from "react-countup";
 import { Container, Row, Col } from "react-bootstrap";
 
 // ✅ Images are two levels up then into image/
-import one from "../../image/1.jpeg";
-import two from "../../image/2.jpeg";
-import three from "../../image/3.jpeg";
+import one from "../../image/WhoWeAre.jpeg";
+import two from "../../image/OurMission.jpeg";
+import three from "../../image/creativeDesign.jpg";
 
 // ✅ OurValues is one folder up (to pages), then into OurValues/
 import OurValues from "../OurValues/OurValues";

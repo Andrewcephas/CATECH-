@@ -4,11 +4,11 @@ import { db } from "../../Database/Configuration";
 import { doc, setDoc } from "firebase/firestore";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import CartHeader from "../CartHeader/CartHeader";
-import oneday from "../../image/oneday.jpeg";  // Correct image import
-import onemonth from "../../image/onemonth.webp";  // Correct image import
-import twomonth from "../../image/twomonths.webp";  // Correct image import
-import layers from "../../image/newchicke.webp";  // Correct image import
-import starterfeed from "../../image/starterfeed.jpg";  // Correct image import
+import oneday from "../../image/webBanner.jpeg";  // Correct image import
+import onemonth from "../../image/bannerWithPhone.webp";  // Correct image import
+import twomonth from "../../image/chooseCatech.webp";  // Correct image import
+import layers from "../../image/banner👍.webp";  // Correct image import
+import starterfeed from "../../image/creativeDesign.jpg";  // Correct image import
 
 // Catech Solutions and Graphics Products (Updated with your images)
 const products = [

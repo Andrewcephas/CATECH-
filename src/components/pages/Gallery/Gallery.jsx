@@ -4,18 +4,19 @@ import "aos/dist/aos.css";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Gallery.css";
 
-import one from "../../image/1.jpeg";
-import two from "../../image/2.jpeg";
-import three from "../../image/3.jpeg";
-import four from "../../image/4.jpeg";
-import five from "../../image/5.jpeg";
-import six from "../../image/6.jpeg";
-import seven from "../../image/7.jpeg";
-import eight from "../../image/8.jpeg";
-import nine from "../../image/9.jpeg";
-import ten from "../../image/10.jpeg";
+import one from "../../image/WhoWeAre.jpeg";
+import two from "../../image/OurMission.jpeg";
+import three from "../../image/BirthDay.jpeg";
+import four from "../../image/BannerWithIzzoh.jpeg";
+import five from "../../image/ui-ux.jpeg";
+import six from "../../image/webBanner1.jpeg";
+import seven from "../../image/Choose-Catech.jpeg";
+import eight from "../../image/bannerWith👍.jpeg";
+import nine from "../../image/CreativeDesign1.jpeg";
+import ten from "../../image/bannerWithPhone1.jpeg";
+import eleven from "../../image/mothers.jpeg";
 
-const images = [one, two, three, four, five, six, seven, eight, nine, ten];
+const images = [one, two, three, four, five, six, seven, eight, nine, ten, eleven];
 
 const Gallery = () => {
   useEffect(() => {

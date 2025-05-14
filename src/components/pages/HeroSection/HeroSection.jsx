@@ -7,13 +7,13 @@ import "aos/dist/aos.css";
 // import { Link } from "react-router-dom";
 
 // Images
-import coverPremier from "../../image/chickw.webp";
-import broiler from "../../image/broiler.webp";
-import layer from "../../image/layer.webp";
-import cover3 from "../../image/mommychic.webp";
-import cover4 from "../../image/banana.webp";
-import eggs from "../../image/eggs.webp";
-import two from "../../image/tester1.webp";
+import coverPremier from "../../image/BannerWithIzzoh.webp";
+import broiler from "../../image/bannerWithPhone2.webp";
+import layer from "../../image/webBanner6.webp";
+import cover3 from "../../image/bannerWithPhone9.webp";
+import cover4 from "../../image/bannerWith👍.webp";
+import eggs from "../../image/webBannerG.webp";
+import two from "../../image/banner👍4.webp";
 
 const HeroSection = () => {
   useEffect(() => {

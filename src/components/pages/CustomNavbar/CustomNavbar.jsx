@@ -111,7 +111,7 @@ const CustomNavbar = () => {
         </div>
 
         <a
-          href="/shop"
+          href="/order"
           className="book-now-button"
           style={{
             position: "absolute",
@@ -174,7 +174,7 @@ const CustomNavbar = () => {
             <Nav className="ms-auto">
               {[
                 { name: "Home", link: "/" },
-                { name: "Shop", link: "/shop" },
+                { name: "order", link: "/order" },
                 { name: "About Us", link: "/about" },
                 { name: "Team", link: "/team" },
                 { name: "Blog", link: "/blog" },

@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../../image/lower.webp";  // Retained image import
+import heroImage from "../../image/banner👍8.webp";  // Retained image import
 import { Link } from "react-router-dom";
 import { FaCheckCircle, FaTools } from "react-icons/fa";
 
