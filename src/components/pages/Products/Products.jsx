@@ -15,31 +15,31 @@ const products = [
   {
     name: "Web Design Services",
     description: "Custom websites designed for businesses and personal branding.",
-    price: "KSh 30,000",
+    price: "KSh 10,000 - 30,000/=",
     image: oneday,  // Image associated with the service
   },
   {
     name: "Graphic Design",
     description: "Creative logo and branding designs that reflect your identity.",
-    price: "KSh 8,000",
+    price: "KSh 1,000 - 8,000/=",
     image: onemonth,  // Image associated with the service
   },
   {
     name: "Poster Design",
     description: "Custom posters for events, promotions, and marketing campaigns.",
-    price: "KSh 4,500",
+    price: "KSh 500 - 4,500/=",
     image: twomonth,  // Image associated with the service
   },
   {
     name: "Flyer Design",
     description: "Professional flyer designs for promotions, events, and more.",
-    price: "KSh 3,000",
+    price: "KSh 750 - 3,000/=",
     image: layers,  // Image associated with the service
   },
   {
     name: "Business Card Design",
     description: "Make an impact with a unique, professionally designed business card.",
-    price: "KSh 2,500",
+    price: "KSh 500 - 2,500/=",
     image: starterfeed,  // Image associated with the service
   },
 ];
