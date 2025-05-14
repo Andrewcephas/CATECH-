@@ -42,29 +42,9 @@
   width: 100%;
 }
 
-/* Button styling */
-.hero-btn {
-  background-color: #000 !important;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-weight:bolder;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 45px;
-  line-height: 1;
-  font-size: 1rem;
-}
 
-/* Button hover effect */
-.hero-btn:hover {
-  background-color: #017020 !important;
-  color: #fff;
-}
+
+
 
 /* Responsive for mobile */
 @media (max-width: 768px) {
@@ -72,9 +52,8 @@
     height: 200px;
   }
 
-  .hero-btn {
-    padding: 8px 16px;
-    font-size: 0.9rem;
-    height: 40px;
+  .carousel-item img {
+    object-fit: cover; /* Adjusts to fill the box */
+    object-position: center;
   }
 }
