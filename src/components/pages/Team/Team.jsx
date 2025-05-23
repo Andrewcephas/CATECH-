@@ -11,6 +11,7 @@ import six from "../../image/isaac.webp";  // Going up two levels to access the 
 import seven from "../../image/zeddie.webp";  // Going up two levels to access the image
 import eight from "../../image/waema.webp";  // Going up two levels to access the image
 import nine from "../../image/yvonne.webp";  // Going up two levels to access the image
+import Ten from "../../image/apollo.jpg";  // Going up two levels to access the image
 
 const teamMembers = [
   {
@@ -66,7 +67,12 @@ const teamMembers = [
     title: "Brand Influencer",
     image: nine,
     description: "Yvonne builds Catech’s online presence, engaging with audiences through social media and digital campaigns.",
-  },
+  },{
+    name: "Apollo Muraguri",
+    title: "Software Developer",
+    image: Ten,
+    description: "Apollo  develops and maintains Catech’s digital platforms, crafting efficient, user-friendly software solutions that enhance the company’s online presence and user engagement.",
+  }
 ];
 
 const Team = () => {
