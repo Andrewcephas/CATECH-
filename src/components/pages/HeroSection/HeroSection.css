@@ -10,7 +10,7 @@
   position: relative;
   overflow: hidden;
   font-family: 'Poppins', sans-serif;
-  background-color: #5c5c5c; /* Optional: adds black background behind images */
+ background-color: #5c5c5c;    /*Optional: adds black background behind images */
 }
 
 /* Image fits perfectly in the box without overlapping */
@@ -51,7 +51,7 @@
 /* Responsive for mobile */
 @media (max-width: 768px) {
   .carousel-item {
-    height: 200px;
+    height: 450px;
   }
 
   .carousel-item img {

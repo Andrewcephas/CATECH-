@@ -13,9 +13,14 @@ import starterfeed from "../../image/creativeDesign.jpg";  // Correct image impo
 // Catech Solutions and Graphics Products (Updated with your images)
 const products = [
   {
-    name: "Web Design Services",
+    name: "Static Website Development",
     description: "Custom websites designed for businesses and personal branding.",
-    price: "KSh 10,000 - 30,000/=",
+    price: "KSh 15,000 - 25,000/=",
+    image: oneday,  // Image associated with the service
+  }, {
+    name: "Dynamic Website Development",
+    description: "Custom websites designed for businesses and personal branding.",
+    price: "KSh 30,000 - 100,000/=",
     image: oneday,  // Image associated with the service
   },
   {

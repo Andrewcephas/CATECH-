@@ -9,42 +9,58 @@ const ImageWithText = () => {
   }, []);
 
   return (
-    <Container fluid className="py-5">
-      <Row className="align-items-stretch">
+    <div style={{ width: "100%", overflow: "hidden" }}>
+      <Row
+        className="g-0 align-items-stretch"
+        style={{ minHeight: "400px" }}
+      >
         {/* Image Section */}
         <Col
           md={6}
-          className="d-flex align-items-center p-0"
+          className="d-flex align-items-center"
           data-aos="fade-right"
+          style={{ overflow: "hidden" }}
         >
           <img
-            src={`${process.env.PUBLIC_URL}/CATECH LOGO.PNG`} // Updated to use the public folder path
+            src={`${process.env.PUBLIC_URL}/CATECH LOGO.PNG`}
             alt="Catech Solutions and Graphics"
-            className="img-fluid w-100 h-100 object-fit-cover rounded-start shadow-lg"
-            style={{ maxHeight: "100%" }}
+            className="img-fluid w-100 h-100"
+            style={{
+              objectFit: "cover",
+              minHeight: "100%",
+            }}
           />
         </Col>
 
         {/* Text Section */}
         <Col
           md={6}
-          className="p-5 text-white d-flex flex-column justify-content-center"
-          style={{ backgroundColor: "#017020" }} // Using Catech green for the background
+          className="d-flex flex-column justify-content-center text-white p-4 p-md-5"
           data-aos="fade-left"
+          style={{
+            backgroundColor: "#017020",
+          }}
         >
           <h2 className="mb-3">About Catech Solutions & Graphics</h2>
           <p className="mb-3">
-            At Catech Solutions and Graphics, we bring creativity and technology together to provide top-notch services in design, system development, IT consultancy, and media production.
+            At Catech Solutions and Graphics, we bring creativity and technology
+            together to provide top-notch services in design, system development,
+            IT consultancy, and media production.
           </p>
           <p className="mb-4">
-            From branding and digital art to custom systems and multimedia solutions, we are passionate about helping individuals and businesses thrive through innovation.
+            From branding and digital art to custom systems and multimedia
+            solutions, we are passionate about helping individuals and businesses
+            thrive through innovation.
           </p>
-          <button className="btn" style={{ backgroundColor: "#ff9900", borderColor: "#ff9900" }}> {/* Orange button */}
+          <button
+            className="btn text-white"
+            style={{ backgroundColor: "#ff9900", borderColor: "#ff9900" }}
+          >
             Learn More
           </button>
         </Col>
       </Row>
-    </Container>
+    </div>
   );
 };
 
