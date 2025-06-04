@@ -4,7 +4,7 @@ import Services from "../Services/Services";
 import Testimonials from "../Testimonial/Testimonial";
 import AgentFarmerBanner from "../AgentFarmerBanner/AgentFarmerBanner";
 import Contact from "../Contact/Contact";
-import WhatsAppButton from "../Whatsapp/WhatsappButton";
+// import WhatsAppButton from "../Whatsapp/WhatsappButton";
 import IntroSection from "../SectionAbout/SectionAbout";
 import ServiceSection from "../sectionServices/sectionServices";
 import OurPartners from "../OurPartners/OurPartners";
@@ -28,7 +28,7 @@ const Home = () => {
       <Testimonials />
       <AgentFarmerBanner />
       <Contact />
-      <WhatsAppButton />
+      {/* <WhatsAppButton /> */}
       <SlidingPromo /> {/* Add SlidingPromo at the top of the page */}
 
     </div>
